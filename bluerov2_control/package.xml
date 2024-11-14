@@ -4,7 +4,7 @@
   <name>bluerov2_control</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="user@todo.todo">user</maintainer>
+  <maintainer email="saitejas.janjur@tamu.edu">aarrg</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
