@@ -7,6 +7,7 @@
     plugin_allowlist:
       - 'imu'
       - 'sys_*'
+      - 'rc_io'
       - 'command'
       - 'local_position'
       - 'setpoint_position'
