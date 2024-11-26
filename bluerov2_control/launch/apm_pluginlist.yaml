@@ -1,4 +1,4 @@
-/**:
+/**/mavros/**:
   ros__parameters:
     plugin_denylist:
       # common
@@ -11,4 +11,5 @@
       - 'local_position'
       - 'setpoint_position'
       - 'setpoint_velocity'
-      
+      - 'rc_io'
+      - 'actuator_control'

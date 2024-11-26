@@ -13,6 +13,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rclpy REQUIRED)
+find_package(std_srvs REQUIRED)
+find_package(mavros_msgs REQUIRED)
 
 ament_export_dependencies(rosidl_default_runtime)
 
@@ -33,6 +35,7 @@ install(PROGRAMS
   scripts/light_service_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
+
 
 # Install launch files.
 install(DIRECTORY
