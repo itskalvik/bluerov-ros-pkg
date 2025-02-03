@@ -1,0 +1,15 @@
+/**/mavros/**:
+  ros__parameters:
+    plugin_denylist:
+      # common
+      - '*'
+
+    plugin_allowlist:
+      - 'imu'
+      - 'sys_*'
+      - 'command'
+      - 'local_position'
+      - 'setpoint_position'
+      - 'setpoint_velocity'
+      - 'rc_io'
+      - 'actuator_control'
